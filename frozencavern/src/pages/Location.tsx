@@ -235,7 +235,7 @@ export default function Location() {
               <p className="text-white/90 font-mono text-sm leading-relaxed whitespace-pre-wrap">
                 {(() => {
                   // Create array of 100,000 periods
-                  const items = Array(100000).fill('.');
+                  const items = Array(10000).fill('.');
                   
                   // Pick a random position for the 's'
                   const randomPosition = Math.floor(Math.random() * 100000);
