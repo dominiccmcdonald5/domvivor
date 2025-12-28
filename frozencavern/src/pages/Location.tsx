@@ -238,7 +238,7 @@ export default function Location() {
                   const items = Array(10000).fill('.');
                   
                   // Pick a random position for the 's'
-                  const randomPosition = Math.floor(Math.random() * 100000);
+                  const randomPosition = Math.floor(Math.random() * 10000);
                   items[randomPosition] = 's';
                   
                   // Join with newlines
