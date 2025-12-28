@@ -234,11 +234,11 @@ export default function Location() {
             <div className="max-h-[600px] overflow-y-auto">
               <p className="text-white/90 font-mono text-sm leading-relaxed whitespace-pre-wrap">
                 {(() => {
-                  // Create array of 200,000 periods
-                  const items = Array(200000).fill('.');
+                  // Create array of 100,000 periods
+                  const items = Array(100000).fill('.');
                   
                   // Pick a random position for the 's'
-                  const randomPosition = Math.floor(Math.random() * 200000);
+                  const randomPosition = Math.floor(Math.random() * 100000);
                   items[randomPosition] = 's';
                   
                   // Join with newlines
